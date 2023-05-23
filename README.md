@@ -88,9 +88,9 @@ In the Assets section, download the installer for your platform.
 
 ### My site is not deploying
 
-If you get errors publishing your site, please check the following before seeking support:
+If you get errors publishing your site, please check the following before seeking support.
 
-#### Problems Publishing
+### Problems Publishing
 
 * You did not create `_admin` page in the root of your space.
 * You did not provide all the config values on GitHub tab in page properties of `_admin` page.
@@ -102,53 +102,53 @@ If you get errors publishing your site, please check the following before seekin
 * You pushed using the wrong protocol (e.g. you used SSH or HTTPS, when only the other protocol was acceptable)
 * You provided the correct authentication but the email address you sent with it did not match what the server was expecting
 
-#### Can't see all content or styles
+### Can't see all content or styles
 
 * You did not publish the space after creating the content.
 * You did not deploy the space after publishing the content.
 * You did not provide all the config values on GitHub tab in page properties of `_admin` page.
 * You did not add `/apps/typerefinery/clientlibs` in `Additional Paths to Publish` in page properties of `_admin` page on the Deploy tab.
 
-#### I don't see the "Use this template" button on the GitHub page. What should I do?
+### I don't see the "Use this template" button on the GitHub page. What should I do?
 
 Ensure that you are logged in to your GitHub account. If you still don't see the button, make sure you have the necessary permissions to create repositories from templates.
 
-#### I encountered an error while creating the repository from the template. What could be the problem?
+### I encountered an error while creating the repository from the template. What could be the problem?
 
 Double-check your internet connection and try again. If the error persists, ensure that you have not reached any limits on your GitHub account, such as repository creation limits.
 
-#### After setting up the repository, I can't find the "Settings" button. Where is it located?
+### After setting up the repository, I can't find the "Settings" button. Where is it located?
 
 The "Settings" button is usually located at the top-right section of your repository page, near the "Code" button. If you don't see it, ensure that you have sufficient permissions to access repository settings.
 
-#### I selected the "Deploy from a branch" option, but I don't see the desired branch in the "Branch" dropdown. What should I do?
+### I selected the "Deploy from a branch" option, but I don't see the desired branch in the "Branch" dropdown. What should I do?
 
 Ensure that you have pushed the desired branch to your repository. If the branch is missing, try refreshing the page or check if you have permission to access that specific branch.
 
-#### I updated the repository details, but I don't see the link to my new site in the About section. What could be wrong?
+### I updated the repository details, but I don't see the link to my new site in the About section. What could be wrong?
 
 Double-check that you correctly enabled the "Use your GitHub Pages website" checkbox in the repository settings. If it still doesn't appear, make sure you saved the changes properly and refresh the page.
 
-#### I'm unable to generate a personal access token. What could be causing this issue?
+### I'm unable to generate a personal access token. What could be causing this issue?
 
 Check your GitHub account settings to ensure that you have the necessary permissions to generate personal access tokens. If the problem persists, contact GitHub support for further assistance.
 
-#### Typerefinery installation failed. What should I do?
+### Typerefinery installation failed. What should I do?
 
 For now, Typerefinery only supports Windows. Please leave a comment on [Mac](https://github.com/typerefinery-ai/typerefinery/issues/501) and [Linux](https://github.com/typerefinery-ai/typerefinery/issues/502) tickets to hurry us along. Double-check that you downloaded the correct installer for your platform. 
 
-#### The CMS Homepage on http://localhost:8113 is not accessible. How can I resolve this?
+### The CMS Homepage on http://localhost:8113 is not accessible. How can I resolve this?
 
 Verify that the Typerefinery app is running and fully set up and that all services in the app are running. Ensure that you entered the correct URL in your browser.
 
-#### I can't log in to the CMS Homepage with the default credentials. What should I do?
+### I can't log in to the CMS Homepage with the default credentials. What should I do?
 
 Double-check that you are using the correct username and password. 
 
-#### I encountered errors while publishing and deploying the space. How can I troubleshoot this issue?
+### I encountered errors while publishing and deploying the space. How can I troubleshoot this issue?
 
 Check your internet connection stability. Ensure that you provided the correct repository URL and personal access token in the Space Config settings. Verify that your GitHub account has the necessary permissions for repository deployment. Review any error messages received during the publishing and deployment process.
 
-#### Still stuck?
+### Still stuck?
 
 If you are still stuck, make a video of what you are trying to do, get a zip of your logs, and leave them in a comment on [Bugs installing the app](https://github.com/typerefinery-ai/typerefinery/issues/503) issue.
