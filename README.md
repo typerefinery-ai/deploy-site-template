@@ -1,7 +1,12 @@
 # Deploy Site Template
 
-A template for new GitHub pages site.
+A template repo for sites created using Typerefinery app and hosted on GitHub pages site.
 
+***
+NOTE: TypeRefinery is in early development and is not yet ready for production use. Currently, it's only installable on Windows. 
+
+Mac and Linux support is coming soon, please leave a comment on [Mac](https://github.com/typerefinery-ai/typerefinery/issues/501) and [Linux](https://github.com/typerefinery-ai/typerefinery/issues/502) tickets to hurry us along.
+***
 ## Usage
 
 Follow this guide to create a new GitHub page site from this template. Install and configure Typerefinery application to use it's built-in CMS to create and deploy your site to GitHub pages.
