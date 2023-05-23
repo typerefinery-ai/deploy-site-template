@@ -151,4 +151,4 @@ Check your internet connection stability. Ensure that you provided the correct r
 
 #### Still stuck?
 
-If you still stuck, make a video of what you are trying to do, get a zip of your logs, and leave them in a comment on [Bugs installing the app](https://github.com/typerefinery-ai/typerefinery/issues/503) issue.
+If you are still stuck, make a video of what you are trying to do, get a zip of your logs, and leave them in a comment on [Bugs installing the app](https://github.com/typerefinery-ai/typerefinery/issues/503) issue.
