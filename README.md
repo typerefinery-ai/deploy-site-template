@@ -4,7 +4,7 @@ A template for new GitHub pages site.
 
 ## Usage
 
-Follow this guide to create a new GitHub page site from this template. Install and configure Typerefinery to deploy the site to GitHub pages.
+Follow this guide to create a new GitHub page site from this template. Install and configure Typerefinery application to use it's built-in CMS to create and deploy your site to GitHub pages.
 
 ### Create a new repository from this template
 
