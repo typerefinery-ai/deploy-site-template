@@ -1,6 +1,14 @@
-# Deploy Site Template
+# GitHub Hosted Site Template
 
 A template repo for sites created using Typerefinery app and hosted on GitHub pages site.
+
+You can use this template to create a new GitHub reop that will contain your site content. This template contains the necessary configuration to get you started quickly.
+
+You can use CMS in the Typerefinery app to create and edit content for your site. When you are ready, you can publish and deploy your site to GitHub pages. You can use CMS to edit and publish your changes when you need to update site content. The Typerefinery app will push your changes to GitHub, and GitHub Actions pipeline will deploy these to GitHub pages.
+
+Having CMS running on your local PC will ensure that you have all the control and tools needed to create whatever you desire.
+
+Typerefinery CMS uses the latest Bootstrap to give you a great starting point for your site. You can use the built-in Bootstrap components to create your site. You can also use the built-in Bootstrap components to create your own components and extend the CMS functionality.
 
 ***
 NOTE: TypeRefinery is in early development and is not yet ready for production use. Currently, it's only installable on Windows. 
