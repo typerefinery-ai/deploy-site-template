@@ -13,12 +13,19 @@ Follow this guide to create a new GitHub pages site from this template. Install 
 3. Click the `Create repository from template` button.
 4. Click the `Code` button and copy the HTTPS repository Url and save it.
 
+### Update the repository settings
+
+1. Click the `Settings` button.
+2. Click the `Pages` tab.
+3. Select `Deploy from a branch` branch in `Source` dropdown.
+4. Select `main` branch in `Branch` dropdown and press `Save` button.
+
 ### Create a personal access token
 
-1. Go to the [Personal access tokens]() page.
-2. Click the `Generate new token` button.
-3. Set the token description.
-4. Select the `repo` scope.
+1. Go to the [New personal access token (classic)](https://github.com/settings/tokens/new) page.
+2. Set the token `Note`.
+2. Select `No expiration` in `Expiration` field.
+3. In `Select scopes` tick `public_repo` in the `repo` section.
 5. Click the `Generate token` button.
 6. Copy the generated token and save it.
 
