@@ -54,8 +54,20 @@ In the Assets section, download the installer for your platform.
     * paste your personal access token into `Personal Access Token`.
     * set the `Branch` to `gh-pages`.
     * set User and Email to your github user and email.
-6. Return to CMS on [http://localhost:8113](http://localhost:8113).
-7. On your new space click on the `...` button and select `Publish space`.
-8. On `Publish space` dialog select `All` in `Publish Options`, click on `Deploy after Publish` toggle, and click `Publish` button.
-9. Wait for the space to be published and deployed.
-10. Check GitHub repository `gh-pages` branch for the new files.
+
+### Create home page
+
+1. Click `Create page` button.
+2. On `Template selection` choose `Page` template.
+3. On `Page properties` on `General` tab:
+    * set the page `Title` to `Home`, and
+    * set `Name` to lowercase `index`.
+4. Click `Create` button.
+
+### Publish space
+
+1. In a web browser, open CMS Homepage on [http://localhost:8113](http://localhost:8113).
+2. On your new space click on the `...` button and select `Publish space`.
+3. On `Publish space` dialog select `All` in `Publish Options`, click on `Deploy after Publish` toggle, and click `Publish` button.
+4. Wait for the space to be published and deployed.
+5. Check GitHub repository `gh-pages` branch for the new files.
