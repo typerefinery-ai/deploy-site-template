@@ -1,6 +1,6 @@
 # GitHub Hosted Site Template
 
-[![Deploy static content to Pages](./actions/workflows/static.yml/badge.svg?branch=main)](./actions/workflows/static.yml)
+[![Deploy static content to Pages](actions/workflows/static.yml/badge.svg?branch=main)](actions/workflows/static.yml)
 
 
 # About
