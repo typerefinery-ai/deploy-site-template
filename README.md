@@ -67,18 +67,18 @@ In the Assets section, download the installer for your platform.
     * select `Github` in `Deploy Target`, and
     * in `Additional Paths to Publish` add a new Path entry with `/apps/typerefinery/clientlibs`.
 5. On `Page properties` on `Github` tab:
-    * paste your repository Url into `Repository URL` in format `https://github.com/user/repo`.
-    * paste your personal access token into `Personal Access Token`.
-    * set the `Branch` to `main`.
-    * set User and Email to your github user and email.
+    * paste your repository Url into `Repository URL` field in format `https://github.com/user/repo.git`.
+    * paste your personal access token into `Personal Access Token` field.
+    * set the `Branch` field to `main`.
+    * set User and Email field to your desired user and email identifiers that will be used to push content to this repo.
 
 ### Create home page
 
 1. Click `Create page` button.
 2. On `Template selection` choose `Page` template.
 3. On `Page properties` on `General` tab:
-    * set the page `Title` to `Home`, and
-    * set `Name` to lowercase `index`.
+    * set field `Title` to `Home`, and
+    * set field `Name` to lowercase `index`.
 4. Click `Create` button.
 
 ### Publish space
