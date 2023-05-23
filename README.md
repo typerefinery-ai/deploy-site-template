@@ -83,3 +83,28 @@ In the Assets section, download the installer for your platform.
 3. On `Publish space` dialog select `All` in `Publish Options`, click on `Deploy after Publish` toggle, and click `Publish` button.
 4. Wait for the space to be published and deployed.
 5. Check GitHub repository `main` branch for the new files.
+
+## FAQ
+
+### My site is not deploying
+
+If you get errors publishing your site, please check the following before seeking support:
+
+#### Problems Publishing
+
+* You did not create `_admin` page in the root of your space.
+* You did not provide all the config values on GitHub tab in page properties of `_admin` page.
+* You don't have an account on Github
+* You didn't do the email verification to complete your account on Github
+* Your username does not have push rights to that repository (e.g. your username is not listed as a contributor)
+* You used the wrong username by accident (substituting with one that does not have push rights on that repository)
+* You entered the password wrong
+* You pushed using the wrong protocol (e.g. you used SSH or HTTPS, when only the other protocol was acceptable)
+* You provided the correct authentication but the email address you sent with it did not match what the server was expecting
+
+### Can't see all content or styles
+
+* You did not publish the space after creating the content.
+* You did not deploy the space after publishing the content.
+* You did not provide all the config values on GitHub tab in page properties of `_admin` page.
+* You did not add `/apps/typerefinery/clientlibs` in `Additional Paths to Publish` in page properties of `_admin` page on the Deploy tab.
