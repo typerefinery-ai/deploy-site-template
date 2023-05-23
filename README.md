@@ -1,8 +1,13 @@
 # GitHub Hosted Site Template
 
-A template repo for sites created using Typerefinery app and hosted on GitHub pages site.
+[![Deploy static content to Pages](https://github.com/typerefinery-ai/deploy-site-template/actions/workflows/static.yml/badge.svg?branch=main)](https://github.com/typerefinery-ai/deploy-site-template/actions/workflows/static.yml)
 
-You can use this template to create a new GitHub reop that will contain your site content. This template contains the necessary configuration to get you started quickly.
+
+# About
+
+This is a template repo for sites created using Typerefinery app and hosted on GitHub Pages.
+
+You can use this template to create a new GitHub repo that will contain your site content. This template contains the necessary configuration to get you started quickly.
 
 You can use CMS in the Typerefinery app to create and edit content for your site. When you are ready, you can publish and deploy your site to GitHub pages. You can use CMS to edit and publish your changes when you need to update site content. The Typerefinery app will push your changes to GitHub, and GitHub Actions pipeline will deploy these to GitHub pages.
 
@@ -15,7 +20,7 @@ NOTE: TypeRefinery is in early development and is not yet ready for production u
 
 Mac and Linux support is coming soon, please leave a comment on [Mac](https://github.com/typerefinery-ai/typerefinery/issues/501) and [Linux](https://github.com/typerefinery-ai/typerefinery/issues/502) tickets to hurry us along.
 ***
-## Usage
+## Usage of this Template
 
 Follow this guide to create a new GitHub page site from this template. Install and configure Typerefinery application to use it's built-in CMS to create and deploy your site to GitHub pages.
 
