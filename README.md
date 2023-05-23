@@ -20,6 +20,11 @@ Follow this guide to create a new GitHub pages site from this template. Install 
 3. Select `Deploy from a branch` branch in `Source` dropdown.
 4. Select `main` branch in `Branch` dropdown and press `Save` button.
 
+### Update the repository details
+
+1. Click the `Gears` button in the About section.
+2. Tick the `Use your GitHub Pages website` checkbox and click `Save changes` button. Link to your new site will appear in the About section.
+
 ### Create a personal access token
 
 1. Go to the [New personal access token (classic)](https://github.com/settings/tokens/new) page.
