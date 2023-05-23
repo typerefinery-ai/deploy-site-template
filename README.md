@@ -52,7 +52,7 @@ In the Assets section, download the installer for your platform.
 5. On `Page properties` on `Github` tab:
     * paste your repository Url into `Repository URL` in format `https://github.com/user/repo`.
     * paste your personal access token into `Personal Access Token`.
-    * set the `Branch` to `gh-pages`.
+    * set the `Branch` to `main`.
     * set User and Email to your github user and email.
 
 ### Create home page
@@ -70,4 +70,4 @@ In the Assets section, download the installer for your platform.
 2. On your new space click on the `...` button and select `Publish space`.
 3. On `Publish space` dialog select `All` in `Publish Options`, click on `Deploy after Publish` toggle, and click `Publish` button.
 4. Wait for the space to be published and deployed.
-5. Check GitHub repository `gh-pages` branch for the new files.
+5. Check GitHub repository `main` branch for the new files.
