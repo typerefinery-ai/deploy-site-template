@@ -59,11 +59,11 @@ In the Assets section, download the installer for your platform.
 3. Install the app.
 4. Run the app.
 5. Wait for the app to finish setting up your services.
-6. When you see Ready in the app, open a web browser and open CMS Homepage on [http://localhost:8113].
+6. Click `Ready to Roll` button when all services have loaded.
 
 ### Create new Site
 
-1. In a web browser, open CMS Homepage on [http://localhost:8113](http://localhost:8113).
+1. On experiences tabs, top most tabs in the app, click CMS experience.
 2. Login with the default credentials: `admin` and `admin`.
 3. Click the `Create space` button and choose `Pages`.
 4. Set the space `Title`, lowercase `Name`, and select `Typerefinery pages` in `Template`.
@@ -96,7 +96,7 @@ In the Assets section, download the installer for your platform.
 
 ### Publish space
 
-1. In a web browser, open CMS Homepage on [http://localhost:8113](http://localhost:8113).
+1. On experiences tabs, top most tabs in the app, click CMS experience.
 2. On your new space click on the `...` button and select `Publish space`.
 3. On `Publish space` dialog select `All` in `Publish Options`, click on `Deploy after Publish` toggle, and click `Publish` button.
 4. Wait for the space to be published and deployed.
@@ -153,15 +153,15 @@ Check your GitHub account settings to ensure that you have the necessary permiss
 
 ### Typerefinery installation failed. What should I do?
 
-For now, Typerefinery only supports Windows. Please leave a comment on [Mac](https://github.com/typerefinery-ai/typerefinery/issues/501) and [Linux](https://github.com/typerefinery-ai/typerefinery/issues/502) tickets to hurry us along. Double-check that you downloaded the correct installer for your platform. 
+For now, Typerefinery only supports Windows. Please leave a comment on [Mac](https://github.com/typerefinery-ai/typerefinery/issues/501) and [Linux](https://github.com/typerefinery-ai/typerefinery/issues/502) tickets to hurry us along. Double-check that you downloaded the correct installer for your platform.
 
-### The CMS Homepage on http://localhost:8113 is not accessible. How can I resolve this?
+### The CMS Homepage is not showing up. How can I resolve this?
 
-Verify that the Typerefinery app is running and fully set up and that all services in the app are running. Ensure that you entered the correct URL in your browser.
+Verify that the Typerefinery app is running and fully set up and that all services in the app are running. Ensure that you entered the correct URL in your browser. Restart the app and try accessing CMS using your browser on [http://localhost:8113] after the app has loaded all of the services.
 
 ### I can't log in to the CMS Homepage with the default credentials. What should I do?
 
-Double-check that you are using the correct username and password. 
+Double-check that you are using the correct username and password.
 
 ### I encountered errors while publishing and deploying the space. How can I troubleshoot this issue?
 
